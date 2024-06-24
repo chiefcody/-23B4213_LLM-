@@ -42,7 +42,7 @@ import
 
         Stemming
         
-It's basically breaking down a word to it's root stem               that affixes to preffixes or suffixes to the roots of the words known as Lemma
+It's basically breaking down a word to it's root stem that affixes to preffixes or suffixes to the roots of the words known as Lemma
 #IT's a Classification Problem
 #find out whether the comments of Product is a positive or negative review (0/1)
 #Reviews --> eaten , eat , eating  (going , go , goes)
@@ -63,5 +63,35 @@ Drawback ![image](https://github.com/chiefcody/-23B4213_LLM-/assets/163542025/43
 
           Wordnet Lemmatizer
 
-Lemmatization technique is like stemming. The output we will get after lemmatization is called
+Why Lemmatization?
+
+For uses like ChatBOTs these above techniques cannot be used for that we have Lemmatization
+lemmatizetion all these particular problems bcoz it has dictoniary of all the root words
+ 
+This technique is like stemming. The output we will get after lemmatization is called
 'lemma', which is a root word rather than root stem, the output of stemming. After lemmatization, we will be getting a valid word that means the same thing.
+Application of Wordnet Lemmatizor : Q&A ,  ChatBots , text summarisation
+
+Stopwords
+eliminate words that are so widely used
+Breaking down paragraphs exluding all stopwords with the help of stemming
+
+Parts of Speech tagging
+
+Parts-of-Speech tagging is like giving words their grammar labels in a sentence.
+
+Named Entity Recognition 
+
+It's is like a fancy spellchecker that highlights important names in text, like people, places, and organizations. It helps computers understand the "who, what, where" of text data.
+
+              Converting Text into Vectors
+
+1) One Hot Encoded
+2) Bag of Words
+3) TF-IDF
+4) Word2Vec
+5) Avg Word2Vec
+
+   1) One Hot Encoded
+
+Vocabulary (Unique Words)   : The   Good   Bad   Pizza   is   Amazing
