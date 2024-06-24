@@ -1,1 +1,49 @@
+                              What is Machine Learning?
+
+Machine learning (ML) is a type of artificial intelligence (AI) that allows computers to learn without being explicitly programmed
+
+In other words, It’s a field of study that gives computers the ability to think without being explicitly programmed
+
+
+There are precisely 4 types of Machine Learning Algorithms 
+Supervised Learning
+Unsupervised Learning 
+Recommender Systems
+Reinforcement Learning
+
+
+                                  Supervised Learning 
+
+Supervised learning is a type of machine learning where a computer program learns by analysing data which has already been labelled.
+Imagine that you're training a puppy – you show it a ball (labelled data) and say "fetch" (the label). The more you do this, the better the puppy gets at recognizing a ball and fetching it.
+Here's how it works in machine learning:
+Labelled data: The data used to train the model has two parts: features (inputs) and labels (outputs).
+
+
+Features describe the data, like pixels in an image or words in a sentence.
+Labels tell the model what the data represents, like "cat" or "dog" for an image.
+Learning process: The model analyses the features and labels in the training data to identify patterns. It's just like the puppy learning to recognize the ball based on its shape and colour.
+Predictions: Once trained, the model can use its learned patterns to make predictions on new, unseen data. It can, for example, identify a new image as a cat based on what it learned from the training data.
+             X  	 --------->             Y
+    Input           	 	 output label
+
+Learns from being given right labels
+
+Input 			                             	Output		                      	Application
+
+Email             --------->          Spam (0/1)			                    Spam Filtering
+Audio             --------->          Text transcription	               	Speech Recognition
+English           --------->         	Spanish		                         	Machine Translation
+User info         --------->          Click (0/1)		                    	Online advertising
+Sensor            --------->          Position of Car	                  	Self Driving Cars
+
+
+                                      Regression
+
+Regression analysis is a statistical technique used to understand the relationship between one variable (dependent variable) and one or more other variables (independent variables).
+
+                                  Unsupervised Learning
+
+Unsupervised learning, unlike supervised learning, deals with unlabeled data. Imagine you're presented with a box of toys – you don't know what they are (no labels), but you want to organise them somehow. Unsupervised learning helps you find patterns and structure within this
+
 
