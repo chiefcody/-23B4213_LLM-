@@ -24,9 +24,10 @@ Features describe the data, like pixels in an image or words in a sentence.
 Labels tell the model what the data represents, like "cat" or "dog" for an image.
 Learning process: The model analyses the features and labels in the training data to identify patterns. It's just like the puppy learning to recognize the ball based on its shape and colour.
 Predictions: Once trained, the model can use its learned patterns to make predictions on new, unseen data. It can, for example, identify a new image as a cat based on what it learned from the training data.
-             X  	 --------->             Y
-    Input           	 	 output label
 
+                   X  	         --------->             Y
+                  Input           	         	     output label
+  
 Learns from being given right labels
 
 Input 			                             	Output		                      	Application
@@ -46,4 +47,26 @@ Regression analysis is a statistical technique used to understand the relationsh
 
 Unsupervised learning, unlike supervised learning, deals with unlabeled data. Imagine you're presented with a box of toys – you don't know what they are (no labels), but you want to organise them somehow. Unsupervised learning helps you find patterns and structure within this
 
+Clustering:
+ This is like grouping the toys – the algorithm finds groups (clusters) of data points that share similar characteristics.
+
+
+Dimensionality Reduction: Imagine the toys have many features (colour, size, weight, etc.). Dimensionality reduction simplifies the data by finding a lower-dimensional representation that captures the most important information. It's like summarising the key features of each toy set.
+
+
+Association Rule Learning: In this task it finds the relationship between data. For example, it might identify that red cars are often found with blue blocks (like finding toys that frequently appear together).
+
+                                  Deep Learning
+
+Deep learning is a type of machine learning inspired by the structure and function of the human brain
+It aims to train computers to process information with a similar level of complexity and accuracy as the human brain
+
+Deep learning models learn by processing large amounts of data. As they process the data, they adjust the connections between the nodes in the network, allowing them to identify patterns and make predictions.
+Deep learning is a powerful tool that has revolutionized many fields. It's used in various applications like:
+
+1)Self-driving cars
+2)Facial recognition systems
+3)Medical diagnosis
+4)Machine translation
+5)Voice assistants
 
