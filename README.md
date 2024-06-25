@@ -59,7 +59,7 @@ It's basically breaking down a word to it's root stem that affixes to preffixes 
 3) Snowballs Stemmer
     It's better It's snowballsstemmer.stem('fairly')
 
-Drawback ![image](https://github.com/chiefcody/-23B4213_LLM-/assets/163542025/43f42e8e-028f-4906-b81a-663989258606)
+
 
           Wordnet Lemmatizer
 
